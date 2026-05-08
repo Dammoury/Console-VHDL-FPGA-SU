@@ -32,6 +32,6 @@ Suite à l'implémentation de ces modules, le jeu final est pleinement fonctionn
 
 ### Modules Principaux
 L'architecture matérielle s'articule autour de ces composants clés :
-* `VGA_4bits` / `Moving_Colors` : Gestion de l'affichage et synchronisation vidéo.
-* `ip_rotary` / `move` : Traitement physique des entrées utilisateur.
-* `game` / `mode` / `decor` : Cœur algorithmique gérant les règles du Casse-Briques, les timers, et la génération de l'environnement (briques, murs, obstacle mobile).
+* VGA_4bits.vhd / Moving_Colors.vhd : Gestion de l'affichage et synchronisation vidéo.
+* ip_rotary.vhd / move.vhd : Traitement physique des entrées utilisateur.
+* game.vhd / mode.vhd / decor.vhd : Cœur algorithmique gérant les règles du Casse-Briques, les timers, et la génération de l'environnement (briques, murs, obstacle mobile).
