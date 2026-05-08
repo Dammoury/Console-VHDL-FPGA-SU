@@ -18,7 +18,7 @@ Le projet a été mené de manière modulaire, divisé en 3 tâches principales 
 
 1. **Tâche 1 : Affichage VGA** Amélioration du contrôleur graphique pour supporter des couleurs sur 12 bits et génération de dégradés dynamiques.
 2. **Tâche 2 : Encodeur Rotatif** Création d'une IP dédiée avec filtre anti-rebond et MAE (move.vhd) pour le contrôle matériel du déplacement de la raquette.
-3. **Tâche 3 : Logique de Jeu et Décor** Implémentation des états du jeu (Pause, Victoire, Défaite) et intégration d'un **obstacle mobile** au sein du module `decor` pour complexifier la partie.
+3. **Tâche 3 : Logique de Jeu et Décor** Implémentation des états du jeu (Pause, Victoire, Défaite) et intégration d'un **obstacle mobile** au sein du module decor.vhd pour complexifier la partie.
 
 ---
 
